@@ -1,7 +1,10 @@
 @charset "utf-8";
-p.text1{
-  border: 1px solid blue;
-}
-p.text2{
+#header{
   border: 1px solid red;
+}
+#section{
+  border: 1px solid green;
+}
+#footer{
+  border: 1px solid violet;
 }
