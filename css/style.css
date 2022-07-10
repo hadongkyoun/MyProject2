@@ -1,7 +1,7 @@
 @charset "utf-8";
-h1{
+p.text1{
   border: 1px solid blue;
 }
-h1:hover{
+p.text2{
   border: 1px solid red;
 }
