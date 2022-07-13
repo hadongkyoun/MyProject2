@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.wrap{
+  width: 800px;
+  /* 높이 하위 요소로 인해 자동 생성 */
+  border: 5px solid black;
+  margin: 50px auto;
+}
+.wrap::after{
+  content: '';
+  display:block;
+  clear:both;
+}
+.wrap .left{
+  width: 400px;
+  height: 400px;
+  background-color:lightgreen;
+  float: left;
+}
+.wrap .right{
+  width: 400px;
+  height: 400px;
+  background-color: lightblue;
+  float: left;
+  position: relative;
+}
+.wrap .right .box{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  left:40px;
+  top:30px;
+}
+.wrap .bottom{
+  width: 800px;
+  height: 100px;
+  background-color: pink;
+  float:left;
+}
